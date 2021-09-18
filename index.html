@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mentalista - Dev Camila</title>
+</head>
+<body>
+    <div class="container">
+      <img src="img/man.png" class="man" alt="" srcset="">
+        <h1 class="page-title">
+          Mentalista
+        </h1>
+        <img src="img/logo.png" class="page-logo" alt=""><br>
+        <p class="page-subtitle">
+          Digite um número de 0 a 10
+        </p>
+        <p class="atencao">
+          Atenção! Você tem apenas: <span id="tentativas"><span id="numero"></span> tentativas. <h3></h3>
+        </p>
+        <input type="number" id="valor" /><br>
+        <button type="submit" onclick="Chutar()" id="botao">Chutar</button>
+        <h2 class="resultado" id="resultado"></h2>
+        
+        
+        <a id="novo-jogo" href="./index.html" style="display: none"> Novo jogo</a>
+      </div>
+      <img src="img/ball.png" class="ball" alt="" srcset="">
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      
+          
+      <footer className="footer-container">
+        <nav className="footer-nav">
+          <ul className="footer-ul">            
+            <li><a class="git" target="blank" href="https://github.com/devcamila">Github</a></li>
+            <li><a class="link" target="blank" href="https://www.linkedin.com/in/camila-lacerda/">Linkedin</a></li>     
+            <li><a class="twitter" target="blank" href="https://twitter.com/devcamila3">Twitter</a></li>           
+          </ul>
+        </nav>        
+      </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
